@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: bisque;
+    color: #555;
+}
+
+.container{
+    width: 80%;
+    margin: auto; /* takes margin from both sides and make the content center */
+}
+
+.box-2{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: 100;
+    line-height: 1.6em;
+
+    border: 2px black solid;
+    padding: 5px 10px;
+    border-top: 10px solid red;
+}
+
+.box-1{
+    background-color: #333;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+    border: 5px white solid;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+.box-1 h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 01.4em;
+    text-align: center;
+}
